@@ -16,7 +16,7 @@ public class ConsumidorKafka {
     @Autowired
     InventarioRepository inventarioRepository;
 
-//    @KafkaListener(topics = "test", groupId = "foo", containerFactory = "vehiculoKafkaListenerContainerFactory")
+    @KafkaListener(topics = "test", groupId = "foo", containerFactory = "vehiculoKafkaListenerContainerFactory")
     public void listenTest(VehiculoMsj message) {
         BooleanExpression bol = QInventario.inventario.codigo.eq(message.codigo);
         Optional<Inventario> inv = inventarioRepository.findOne(bol);
