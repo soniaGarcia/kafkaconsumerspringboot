@@ -13,7 +13,7 @@ public class InventarioController {
 
         @RequestMapping("/consultaInventario")
 	public ModelAndView helloworld() {
-		return new ModelAndView("inventario");
+		return new ModelAndView("inventarios");
 	}
 
 }

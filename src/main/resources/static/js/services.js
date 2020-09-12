@@ -1,4 +1,4 @@
-var app = angular.module('inventario', ["ngResource"]);
+var app = angular.module('inventarios', ["ngResource"]);
 
 app.controller('InventarioController', ['$scope', '$http',
 
