@@ -9,21 +9,17 @@ import org.springframework.data.mongodb.core.mapping.Document;
  *
  * @author sonia.cabrera
  */
-@Document(collection = "vehiculo")
-public class Vehiculo {
+@Document(collection = "inventario")
+public class Inventario {
 
     @Id
     public ObjectId id;
 
-    public Integer puertas;
-    public Integer ventanas;
-    public Integer llantas;
-    public Integer pasajeros;
-    public Integer asientos;
-    public String descripcion;
-    public String color;
-    public String marca;
     public String codigo;
+    public Integer cantidad;
+    public Integer precio;
+    
+    
 
     @Override
     public String toString() {

@@ -1,4 +1,4 @@
-package com.prueba.apache.kafka.helper;
+package com.prueba.apache.kafka.config;
 
 import com.prueba.apache.kafka.mensajeDTO.VehiculoMsj;
 import java.util.HashMap;

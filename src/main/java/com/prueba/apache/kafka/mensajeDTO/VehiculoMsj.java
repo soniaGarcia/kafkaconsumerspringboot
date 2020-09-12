@@ -21,7 +21,7 @@ public class VehiculoMsj {
     public String color;
     public String marca;
     public String codigo;
-    public String precio;
+    public Integer precio;
 
     @Override
     public String toString() {
